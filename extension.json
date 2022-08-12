@@ -1,0 +1,17 @@
+{
+    "name": "sclix_list_projects",
+    "version": "0.1.0",
+    "description": "List projects in Snyk",
+    "command": {
+        "name": "list-projects",
+        "description": "List projects in your Snyk account.",
+        "options": [{
+            "name": "source",
+            "shorthand": "s",
+            "type": "string",
+            "description": "The source of the project (CLI, GitHub, etc).",
+            "required": false,
+            "default": ""
+        }]
+    }
+}
